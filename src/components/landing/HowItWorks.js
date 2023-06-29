@@ -4,16 +4,16 @@ import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 
 const STEPS = [
 	{
-		title: "Lorem ipsum dolor sit amet",
-		subtitle: "Sed do eiusmod tempor incididunt ut"
+		title: "Cotizamos",
+		subtitle: "Te cotizamos el mejor precio solo para ti"
 	},
 	{
-		title: "Lorem ipsum dolor sit amet",
-		subtitle: "Sed do eiusmod tempor incididunt ut"
+		title: "Instalamos",
+		subtitle: "En timepo record lo instalamos"
 	},
 	{
-		title: "Lorem ipsum dolor sit amet",
-		subtitle: "Sed do eiusmod tempor incididunt ut"
+		title: "Manejas",
+		subtitle: "El mundo deja de tener limites"
 	},
 ];
 

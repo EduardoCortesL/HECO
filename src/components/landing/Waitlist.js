@@ -32,20 +32,20 @@ const Form = ({ status, onSubmitted }) =>  {
 			{status !== "success" ? (
 				<div className="m-auto flex flex-col md:flex-row">
 					<TextInput 
-						placeholder="Enter your email"
+						placeholder="Tu super email va aqui"
 						value={email}
 						setValue={setEmail}
 					/>
 					<div className="mt-2 md:mt-0 md:ml-2">
 						<SubmitInput 
-							value={status === "sending" ? "Requesting..." : `Get access`}
+							value={status === "sending" ? "Requesting..." : `Mas informacion`}
 						/>
 					</div>
 				</div>
 			) : (
 				<div className="m-auto">
 					<SubmitInput 
-						value="Requested. You'll hear back shortly ⚡️"
+						value="Muchas Gracias. Pronto nos comunicaremos contigo ⚡️"
 					/>
 				</div>
 			)}

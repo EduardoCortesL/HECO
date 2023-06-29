@@ -4,20 +4,20 @@ import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 
 const QUESTIONS = [
 	{
-		question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		question: "Por que instalar un cargador en mi casa",
+		answer: "No sea culo."
 	},
 	{
-		question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		question: "En realidad ahorrare dinero al final del dia ",
+		answer: "Mas para las cheves."
 	},
 	{
-		question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		question: "Se puede isntalar en mi casa",
+		answer: "Si no es como mi casa entonces si."
 	},
 	{
-		question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+		question: "Por que hacerlo con heco",
+		answer: "Somos dos jovenes arquitectos e ingenieros con experiencia internacional y reconocidos mundialmente por las mejores ocmpetencias de arquitectura. Nuestra mision es darte el mejor servicio para tu inversion y que puedas ser tu propio jefe"
 	},
 ];
 
@@ -55,7 +55,7 @@ const FAQ = () => {
 	return (
 		<div className="m-auto max-w-2xl">
 			<h2 className="text-midnight-blue text-5xl md:text-6xl font-bold text-center mb-8">
-				Frequently asked questions,
+				Preguntas frecuentes,
 				<span className="text-transparent text-primary underline-offset-2">
 					{` answered`}
 				</span>

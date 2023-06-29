@@ -28,10 +28,6 @@ const FeatureSection = ({
 					<p className="text-lg text-gray-600">
 						{`"${quote}"`}
 					</p>
-					<div className="flex items-center mt-2">
-						<div className="h-8 w-8 bg-midnight-blue mr-4 rounded-full"></div>
-						<p className="text-lg text-midnight-blue">{name}</p>
-					</div>
 				</div>
 			</div>
 			<div className="md:flex-1 bg-midnight-blue rounded-lg">

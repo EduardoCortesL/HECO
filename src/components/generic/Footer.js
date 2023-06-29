@@ -4,11 +4,11 @@ const Footer = () => {
 	return (
 		<div className="flex justify-between p-4 max-w-2xl m-auto border-t-2">
 			<h3 className="text-md text-gray-600">
-				Copyright 2022 Infisical Inc.
+				Copyright 2023 HECO.
 			</h3>
 			<div className="flex">
-				<p className="text-md text-gray-600">Terms</p>
-				<p className="text-md text-gray-600 ml-4">Privacy</p>
+				<p className="text-md text-gray-600">Terminos</p>
+				<p className="text-md text-gray-600 ml-4">Privacidad</p>
 			</div>
 		</div>
 	);
