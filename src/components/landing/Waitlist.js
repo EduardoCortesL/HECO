@@ -36,9 +36,9 @@ const Form = ({ status, onSubmitted }) =>  {
 						value={email}
 						setValue={setEmail}
 					/>
-					<div className="mt-2 md:mt-0 md:ml-2">
+					<div className="mt-2 md:mt-0 md:ml-2 ">
 						<SubmitInput 
-							value={status === "sending" ? "Requesting..." : `Mas informacion`}
+							value={status === "Enviando..." ? "Requesting..." : `Mas informacion`}
 						/>
 					</div>
 				</div>
