@@ -60,17 +60,14 @@ export default function Home() {
 						</p>
 						<div className="md:flex justify-between m-auto">
 							<div className="text-center py-2 mb-8 md:mb-0">
-								<h2 className="text-5xl md:text-6xl font-bold mb-2">69%</h2>
-								<p className="text-2xl font-medium">Mas rapido</p>
+								<h2 className="text-5xl md:text-6xl font-bold mb-2">16x</h2>
+								<p className="text-2xl font-medium">Mas rapido que un cargador tradicional</p>
 							</div>
 							<div className="text-center py-2 mb-8 md:mb-0">
-								<h2 className="text-5xl md:text-6xl font-bold mb-2">24/7</h2>
-								<p className="text-2xl font-medium">Disponible</p>
+								<h2 className="text-5xl md:text-6xl font-bold mb-2">80km</h2>
+								<p className="text-2xl font-medium">Hasta 80 km de rango por hr de carga</p>
 							</div>
-							<div className="text-center py-2">
-								<h2 className="text-5xl md:text-6xl font-bold mb-2">100k</h2>
-								<p className="text-2xl font-medium">Eficiente</p>
-							</div>
+	
 						</div>
 					</div>
 				</div>
@@ -85,24 +82,15 @@ export default function Home() {
 				</div>
 				<div className="px-4 overflow-hidden">
 					<FeatureSection
-						title="Oscar"
-						subtitle="Arquitecto reconocido mundialmente "
-						quote="Todo es Lindo"
+						subtitle="HECO es una empresa fundada por dos hermanos con una pasión compartida por la innovación y la excelencia. Nuestro equipo está compuesto por un arquitecto y un ingeniero mecánico, lo que nos permite combinar habilidades técnicas y conocimientos en diseño para ofrecer soluciones integrales y personalizadas a nuestros clientes. Con una amplia experiencia en el sector, garantizamos que nuestros clientes no tengan nada de qué preocuparse, ya que nos encargamos de cada etapa del proceso de instalación con meticulosidad y profesionalismo. En HECO, nos apasiona brindar un servicio de alta calidad y facilitar el acceso a la carga conveniente y sostenible para vehículos eléctricos en el entorno residencial.
+						"
 						side="left"
-					/>
-				</div>
-				<div className="mt-8 md:mt-16 px-4 overflow-hidden">
-					<FeatureSection
-						title="Eduardo"
-						subtitle="Ingeniero Mecanico y taquero programador"
-						quote="Todo se arregla."
-						side="right"
 					/>
 				</div>
 				<div className="py-8 md:py-16 mt-8 md:mt-16" data-aos="fade-up">
 					<HowItWorks 
 						title="Tu cargador de la forma mas sencilla"
-						subtitle="Nuestro proceso patentado para darte el mejor servicio a cliente junto con la mejor experiencia en isntalar el cargador sera tan sencillo que lo puedes hacer dormido"
+						subtitle="Nuestro enfoque especializado para brindarte el mejor servicio al cliente y una experiencia excepcional en la instalación del cargador es tan sencillo que podrías hacerlo incluso durmiendo."
 					/>
 				</div>
 				<div className="py-8 md:py-16 px-4" data-aos="fade-up">
@@ -110,8 +98,8 @@ export default function Home() {
 				</div>
 				<div className="py-8 md:py-16 px-4" data-aos="fade-up" onClick={() => scroll.scrollToTop()}>
 					<CTA
-						title="Dejanos guiarte en este hermoso camino"
-						subtitle="Estamos para servirte y para hacer tu vida mas facil "
+						title="¡Contáctanos hoy mismo y descubre cómo HECO puede transformar tu experiencia de carga eléctrica en casa!"
+						subtitle="Haz click aqui para contactarte con nosotros"
 						onCTAClick={scroll.scrollToTop}
 					/>
 				</div>

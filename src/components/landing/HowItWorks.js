@@ -6,32 +6,32 @@ import Image from "next/image";
 const STEPS = [
 	{
 		title: "Cotizamos",
-		subtitle: "Te cotizamos el mejor precio solo para ti",
-		image: "/01_HECO.jpg"
+		subtitle: "Ofrecemos el mejor precio.",
+		image: "/carro.jpg"
 	},
 	{
 		title: "Instalamos",
-		subtitle: "En timepo record lo instalamos",
-		image: "/01_HECO.jpg"
+		subtitle: "Eficiencia garantizada.",
+		image: "/cargador.jpg"
 	},
 	{
-		title: "Manejas",
-		subtitle: "El mundo deja de tener limites",
-		image: "/01_HECO.jpg"
+		title: "Confianza total",
+		subtitle: "Encuentra nuevos limites.",
+		image: "/manejar.jpeg"
 	},
 ];
 
 const Step = ({ step }) => {
 	return (
 		<div className="flex-1 py-4 px-4">
-			<div className="w-full h-64 bg-midnight-blue rounded-lg">
+			<div>
 				<Image src={step.image} width={350} height={260}/>
 			</div>
 			<div className="mt-4">
-				<p className="text-2xl text-gray-600 font-bold mb-2 text-center md:text-left">
+				<p className="text-2xl text-gray-600 font-bold mb-2 text-center ">
 					{step.title}
 				</p>
-				<p className="text-lg text-midnight-blue font-medium text-center md:text-left">
+				<p className="text-lg text-midnight-blue font-medium text-center ">
 					{step.subtitle}
 				</p>
 			</div>

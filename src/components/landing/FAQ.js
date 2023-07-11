@@ -4,20 +4,20 @@ import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 
 const QUESTIONS = [
 	{
-		question: "Por que instalar un cargador en mi casa",
-		answer: "No sea culo."
+		question: "¿Cuáles son los beneficios de instalar un cargador en mi hogar?",
+		answer: "Instalar un cargador en tu hogar te brinda la comodidad de cargar tu vehículo eléctrico de forma rápida y conveniente. Además, te permite ahorrar en costos de combustible al aprovechar tarifas de electricidad más económicas y contribuir al medio ambiente al utilizar energía limpia."
 	},
 	{
-		question: "En realidad ahorrare dinero al final del dia ",
-		answer: "Mas para las cheves."
+		question: "¿Por qué debería elegir HECO para la instalación de mi cargador Tesla? ",
+		answer: "En HECO, contamos con un equipo especializado compuesto por un arquitecto y un ingeniero mecánico, lo que nos permite ofrecer soluciones integrales y personalizadas. Nuestra amplia experiencia en el sector y nuestro enfoque meticuloso nos aseguran que el proceso de instalación sea eficiente, seguro y sin preocupaciones para nuestros clientes."
 	},
 	{
-		question: "Se puede isntalar en mi casa",
-		answer: "Si no es como mi casa entonces si."
+		question: "¿Cuánto tiempo lleva la instalación de un cargador Tesla en mi hogar?",
+		answer: " El tiempo de instalación puede variar según diversos factores, como la infraestructura eléctrica existente en tu hogar. Sin embargo, en HECO nos esforzamos por realizar la instalación de forma ágil. En general, podemos completar la instalación en un tiempo razonable y nos aseguramos de minimizar las interrupciones en tu rutina diaria."
 	},
 	{
-		question: "Por que hacerlo con heco",
-		answer: "Somos dos jovenes arquitectos e ingenieros con experiencia internacional y reconocidos mundialmente por las mejores ocmpetencias de arquitectura. Nuestra mision es darte el mejor servicio para tu inversion y que puedas ser tu propio jefe"
+		question: "¿Puedo aprovechar las tarifas de electricidad más económicas al cargar mi vehículo durante la noche?",
+		answer: "¡Absolutamente! Una de las ventajas de tener un cargador en casa es que puedes cargar tu vehículo durante las horas de tarifas eléctricas más bajas, como la noche. Esto te permite aprovechar ahorros adicionales en comparación con los costos de cargar en estaciones públicas o durante las horas pico."
 	},
 ];
 
