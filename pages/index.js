@@ -15,6 +15,7 @@ import Footer from "../src/components/generic/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Meta from "../src/components/generic/meta_SEO";
 
 export default function Home() {
 	useEffect(() => {
@@ -26,12 +27,7 @@ export default function Home() {
 
 	return (
 		<div>
-			<Head>
-				<title>HECO | Cargadores Tesla para Hogares en Tijuana, Baja California, México</title>
-				<meta name="description" content="HECO es una empresa especializada en la instalación de cargadores Tesla para hogares en Tijuana, Baja California, México. Brindamos soluciones personalizadas y eficientes para la carga de vehículos eléctricos." />
-				<link rel="icon" href="/01_HECO.jpg" />
-				<style>{dom.css()}</style>
-			</Head>
+			<Meta/>
 			<main className="bg-heco_trans">
 				<Header />
 				<div
