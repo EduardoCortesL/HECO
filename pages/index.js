@@ -78,15 +78,16 @@ export default function Home() {
 				</div>
 				<div className="px-4 overflow-hidden">
 					<FeatureSection
-						subtitle="HECO es una empresa fundada por dos hermanos con una pasión compartida por la innovación y la excelencia. Nuestro equipo está compuesto por un arquitecto y un ingeniero mecánico, lo que nos permite combinar habilidades técnicas y conocimientos en diseño para ofrecer soluciones integrales y personalizadas a nuestros clientes. Con una amplia experiencia en el sector, garantizamos que nuestros clientes no tengan nada de qué preocuparse, ya que nos encargamos de cada etapa del proceso de instalación con meticulosidad y profesionalismo. En HECO, nos apasiona brindar un servicio de alta calidad y facilitar el acceso a la carga conveniente y sostenible para vehículos eléctricos en el entorno residencial.
-						"
+						subtitle="HECO es una empresa fundada por dos hermanos con una pasión compartida por la innovación y la excelencia. 
+
+						Nuestro equipo está compuesto por un arquitecto y un ingeniero mecánico, lo que nos permite combinar habilidades técnicas y conocimientos en diseño para ofrecer soluciones integrales y personalizadas a nuestro clientes."
 						side="left"
 					/>
 				</div>
 				<div className="py-8 md:py-16 mt-8 md:mt-16" data-aos="fade-up">
 					<HowItWorks
 						title="Tu cargador de la forma mas sencilla"
-						subtitle="Nuestro enfoque especializado para brindarte el mejor servicio al cliente y una experiencia excepcional en la instalación del cargador es tan sencillo que podrías hacerlo incluso durmiendo."
+						subtitle="En HECO, nos encargamos de cada etapa del proceso de instalación con meticulosidad y profesionalismo para brindarle un servicio de alta calidad."
 					/>
 				</div>
 				<div className="py-8 md:py-16 px-4" data-aos="fade-up">

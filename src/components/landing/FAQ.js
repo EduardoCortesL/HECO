@@ -5,15 +5,15 @@ import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 const QUESTIONS = [
 	{
 		question: "¿Cuáles son los beneficios de instalar un cargador en mi hogar?",
-		answer: "Instalar un cargador en tu hogar te brinda la comodidad de cargar tu vehículo eléctrico de forma rápida y conveniente. Además, te permite ahorrar en costos de combustible al aprovechar tarifas de electricidad más económicas y contribuir al medio ambiente al utilizar energía limpia."
+		answer: "Instalar un cargador en tu hogar te brinda la ventaja de cargar tu vehículo eléctrico de forma más rápida y conveniente, así como aprovechar tarifas de electricidad más económicas."
 	},
 	{
 		question: "¿Por qué debería elegir HECO para la instalación de mi cargador Tesla? ",
-		answer: "En HECO, contamos con un equipo especializado compuesto por un arquitecto y un ingeniero mecánico, lo que nos permite ofrecer soluciones integrales y personalizadas. Nuestra amplia experiencia en el sector y nuestro enfoque meticuloso nos aseguran que el proceso de instalación sea eficiente, seguro y sin preocupaciones para nuestros clientes."
+		answer: "En HECO, contamos con un equipo especializado compuesto por un arquitecto y un ingeniero mecánico, lo que nos permite ofrecer soluciones integrales y personalizadas. nos encargamos de cada etapa del proceso de instalación con meticulosidad y profesionalismo para brindarle un servicio de alta calidad."
 	},
 	{
 		question: "¿Cuánto tiempo lleva la instalación de un cargador Tesla en mi hogar?",
-		answer: " El tiempo de instalación puede variar según diversos factores, como la infraestructura eléctrica existente en tu hogar. Sin embargo, en HECO nos esforzamos por realizar la instalación de forma ágil. En general, podemos completar la instalación en un tiempo razonable y nos aseguramos de minimizar las interrupciones en tu rutina diaria."
+		answer: "El tiempo de instalación puede variar según diversos factores, como la infraestructura eléctrica existente en tu hogar.  Sin embargo, en HECO nos esforzamos por realizar la instalación de forma ágil y en tiempo razonable."
 	},
 	{
 		question: "¿Puedo aprovechar las tarifas de electricidad más económicas al cargar mi vehículo durante la noche?",
@@ -36,7 +36,7 @@ const Question = ({ question }) => {
 			>
 				<FontAwesomeIcon 
 					icon={isOpen ? faMinus : faPlus} 
-					className="text-sky-400 text-xl mt-2"
+					className="text-sky-400 text-lg mt-2"
 				/>
 				<h2 className="text-midnight-blue text-2xl font-bold ml-2">
 					{question.question}
