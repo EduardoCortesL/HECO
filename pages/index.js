@@ -47,7 +47,7 @@ export default function Home() {
 						<Waitlist />
 					</div>
 					<div className="max-w-6xl h-96 m-auto mt-20 rounded-t-lg"></div>
-					<div className="m-auto max-w-2xl py-16" data-aos="fade-up">
+					<div className="m-auto max-w-2xl py-16 cursor-default" data-aos="fade-up">
 						<h2 className="text-midnight-blue text-5xl md:text-6xl font-bold mt-4 text-center">
 							Datos no opiniones
 						</h2>
@@ -67,7 +67,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="bg-white py-8 md:py-16" data-aos="fade-up">
+				<div className="bg-white py-8 md:py-16 cursor-default" data-aos="fade-up">
 					<div className="m-auto max-w-2xl py-16">
 						<h2 className="text-midnight-blue text-5xl md:text-6xl font-bold mt-4 text-center">
 							Quienes somos
@@ -76,7 +76,7 @@ export default function Home() {
 						</p>
 					</div>
 				</div>
-				<div className="px-4 overflow-hidden">
+				<div className="px-4 overflow-hidden cursor-default">
 					<FeatureSection
 						subtitle="HECO es una empresa fundada por dos hermanos con una pasión compartida por la innovación y la excelencia. 
 
@@ -84,7 +84,7 @@ export default function Home() {
 						side="left"
 					/>
 				</div>
-				<div className="py-8 md:py-16 mt-8 md:mt-16" data-aos="fade-up">
+				<div className="py-8 md:py-16 mt-8 md:mt-16 cursor-default" data-aos="fade-up">
 					<HowItWorks
 						title="Tu cargador de la forma mas sencilla"
 						subtitle="En HECO, nos encargamos de cada etapa del proceso de instalación con meticulosidad y profesionalismo para brindarle un servicio de alta calidad."
@@ -93,7 +93,7 @@ export default function Home() {
 				<div className="py-8 md:py-16 px-4" data-aos="fade-up">
 					<FAQ />
 				</div>
-				<div className="py-8 md:py-16 px-4" data-aos="fade-up" onClick={() => scroll.scrollToTop()}>
+				<div className="py-8 md:py-16 px-4 cursor-default" data-aos="fade-up" onClick={() => scroll.scrollToTop()}>
 					<CTA
 						title="¡Contáctanos hoy mismo y descubre cómo HECO puede transformar tu experiencia de carga eléctrica en casa!"
 						subtitle="Haz click aqui para contactarte con nosotros"

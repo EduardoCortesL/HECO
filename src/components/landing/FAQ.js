@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+import { GrAdd, GrFormSubtract } from "react-icons/gr";
 
 const QUESTIONS = [
 	{
@@ -29,15 +30,11 @@ const Question = ({ question }) => {
 	}
 	
 	return (
-		<div className="px-2 py-4 border-b-2">
+		<div className="px-2 py-4 border-b-2 cursor-default">
 			<div 
 				onClick={handleOpen}
 				className="flex items-top"
 			>
-				<FontAwesomeIcon 
-					icon={isOpen ? faMinus : faPlus} 
-					className="text-sky-400 text-lg mt-2"
-				/>
 				<h2 className="text-midnight-blue text-2xl font-bold ml-2">
 					{question.question}
 				</h2>
