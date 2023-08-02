@@ -16,6 +16,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Meta from "../src/components/generic/meta_SEO";
+import Subscribe from "../src/components/landing/newWaitlist";
 
 export default function Home() {
 	useEffect(() => {
@@ -44,7 +45,7 @@ export default function Home() {
 						<p className="text-2xl font-medium text-gray-600 my-8">
 							Para mas informacion dejanos tu email aqui abajo!
 						</p>
-						<Waitlist />
+						<Subscribe />
 					</div>
 					<div className="max-w-6xl h-96 m-auto mt-20 rounded-t-lg"></div>
 					<div className="m-auto max-w-2xl py-16 cursor-default" data-aos="fade-up">
