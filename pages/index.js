@@ -43,7 +43,7 @@ export default function Home() {
 							</span>
 						</h1>
 						<p className="text-2xl font-medium text-gray-600 my-8">
-							Para mas informacion dejanos tu email aqui abajo!
+							El futuro del automovilismo en tu casa
 						</p>
 						<Subscribe />
 					</div>
